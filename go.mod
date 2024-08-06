@@ -4,6 +4,8 @@ go 1.21
 
 toolchain go1.21.0
 
+replace github.com/argoproj/gitops-engine => github.com/dsaidgovsg/gitops-engine v0.7.1-0.20240813082225-54d3567f194a
+
 require (
 	code.gitea.io/sdk/gitea v0.15.1
 	github.com/Azure/kubelogin v0.0.20
